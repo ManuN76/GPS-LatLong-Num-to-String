@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Glide Yes-Code</title>
+</head>
+<div>
+  <span id="result"></span>
+</div>
+<script src="function.js"></script>
+<script src="driver.js"></script>
+
+
+<script>
+   // TEST DEBUG !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+   testDebug();
+
+async function testDebug() {
+let lat = { type: "number", value: 10.5 };
+let long = { type: "number", value: -2.41 };
+//  let number = { type: "number", value: 4 };
+//  let date = { type: "date-time", value: new Date().toString() };
+let result = await window.function(lat,long);
+document.getElementById("result").innerHTML = result;
+
+}
+</script>
+</body>
+
+</html>

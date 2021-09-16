@@ -1,0 +1,23 @@
+[
+  {
+    "kind": "column",
+    "name": "lat.long",
+    "description": "return latitude.longitude",
+    "author": "Manu.n",
+    "params": [
+      {
+        "name": "lat",
+        "displayName": "latitude",
+        "type": "number"
+      },
+      {
+        "name": "long",
+        "displayName": "longitude",
+        "type": "number"
+      }
+    ],
+    "result": {
+      "type": "string"
+    }
+  }
+]
